@@ -14,6 +14,44 @@
         color: var(--main-font-color);
 }
 
+/* title styles */
+#name {
+    padding: 5px;
+    margin: 5px;
+    font-size: 80px;
+}
 
 
+/* nav styles */
+.navItem {
+    padding-left: 20px;
+    font-size: 20px;
+    
+}
 
+/* subtitle styles */
+.mainBox {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+}
+.titleBox {
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    padding: 10px; 
+}
+
+/* Main Section Styles */
+.projBox {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+}
+
+.cards {
+ width: 200px;
+ height: 100px;
+ margin: auto;
+ padding: 10px; 
+}
