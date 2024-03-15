@@ -1,0 +1,19 @@
+:root {
+    --main-bg_color: #222823;
+    --main-font-color: #f4f7f5;
+    --titleFont: ;
+    --bodyFont: ;
+}
+
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: var(--main-bg_color);
+        color: var(--main-font-color);
+}
+
+
+
+
