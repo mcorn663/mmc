@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<html class="no-js" lang="en-US"> 
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,43 +8,14 @@
         <title>Meg Cornell Portfolio</title>
         <!-- style and script resources -->
         <link rel="stylesheet" href="styles.css" media="all">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;600&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
         <script src="mmc.js"></script>
         <!--meta properties -->
-        <meta name="description" content=" Your site description." />
-        <!--detailed robots meta https://developers.google.com/search/reference/robots_meta_tag -->
-        <meta name="robots" content="index, follow, max-snippet: -1, max-image-preview:large, max-video-preview: -1" />
-        <link rel="canonical" href="" />
-        <!--open graph meta tags for social sites and search engines-->
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="  Opengraph content 25 char are best" />
-        <meta property="og:description" content="  #description." />
-        <meta property="og:url" content="" />
-        <meta property="og:site_name" content="" />
-        <meta property="og:image" content="images//hom-banner-compressed.jpg" />
-        <meta property="og:image:secure_url" content="images//hom-banner-compressed.jpg" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="660" />
-        <!--twitter description-->
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:description" content="." />
-        <meta name="twitter:title" content="" />
-        <meta name="twitter:site" content="@" />
-        <meta name="twitter:image" content="images/hom-banner-compressed.jpg" />
-        <meta name="twitter:creator" content="@" />
-        <!--opengraph tags for location or address for information panel in google-->
-        <meta name="og:latitude" content="" />
-        <meta name="og:longitude" content="" />
-        <meta name="og:street-address" content="" />
-        <meta name="og:locality" content="" />
-        <meta name="og:region" content="" />
-        <meta name="og:postal-code" content="" />
-        <meta name="og:country-name" content="" />
-        <!--search engine verification-->
-        <meta name="google-site-verification" content="" />
-        <meta name="yandex-verification" content="" />
-        <!--powered by meta-->
-        <meta name="generator" content="" />
+        <meta name="Portfolio" content="Meg Cornell's Portfolio" />
+        <meta name="og:country-name" content="USA" />
+        
         <!-- Site fevicon icons -->
         <link rel="icon" href="images/icon/cropped-cropped-favicon-1-1-32x32.png" sizes="32x32" />
         <link rel="icon" href="images/icon/cropped-cropped-favicon-1-1-192x192.png" sizes="192x192" />
@@ -56,59 +24,69 @@
         <!--complete list of meta tags at - https://gist.github.com/lancejpollard/1978404 -->
     </head>
     <body>
-        <h1 id="name">Meg Cornell</h1>
-            <nav id="navBar">
-                <ul id="navContainer">
-                    <li class="navItem">Projects</li>
-                    <li class="navItem">About</li>
-                    <li class="navItem">Contact</li>
-                </ul>
-            </nav>
-        <main id="main">
-            <section class="mainBox">
-                <div class="titleBox">
-                <h2 class="subTitle">Projects</h2>
+        <div id="bodyContainer">
+            <div id="header">
+                <a href="index.html"><h1 id="name">Meg Cornell</h1></a>
+                    <nav id="navBar">
+                     <ul id="navContainer">
+                      <a href="#projects"><li class="navItem">Projects</li></a>
+                        <a href="#about" > <li class="navItem">About</li></a>
+                        <a href="#contact"><li class="navItem">Contact</li></a>
+                    </ul>
+                    </nav>
             </div>
-                <div class="projBox">
+            <main id="main">
+            
+                <section class="box">
+                  <div class="titleBox">
+                   <h2 class="subTitle" id="projects">Projects</h2>
+                  </div>
+
+                 <div class="projBox">
+                  <div class="cards">
+                    <img class="projImg" src="">
+                   <a href="webdev.html" ><h3 class="projTitle">Web Development</h3></a>
+                  </div>
+
                  <div class="cards">
-                    <h3 class="projTitle">Proj1</h3>
                     <img class="projImg" src="">
-                </div>
+                   <a href="techwriting.html"> <h3 class="projTitle">Technical Writing</h3></a>
+                  </div>
 
-                <div class="cards">
-                    <h3 class="projTitle">Proj2</h3>
-                    <img class="projImg" src="">
-                </div>
+                 <div class="cards">
+                    <img class="projImg" src="img/explore.png">
+                    <a href="it.html"><h3 class="projTitle">Information Technology</h3></a>
+                 </div>
+                 </div>
+              </section>
 
-                <div class="cards">
-                    <h3 class="projTitle">Proj3</h3>
-                    <img class="projImg" src="">
-                </div>
-            </section>
-
-            <section class="box">
+              <section class="box">
                 <div class="titleBox">
-                <h2 class="subTitle">About</h2>
-                </div>
-                    
+                <h2 class="subTitle" id="about">About</h2>
+                <p class="txt">Hi, I'm Meg and I'm an digital enthusisst. I believe that </p>
                 </div>
 
-            </section>
+              </section>
 
-            <section class="box">
+              <section class="box">
                 <div class="titleBox">
-                <h2 class="subTitle">Contact</h2>
+                <h2 class="subTitle" id="contact">Contact</h2>
                 </div>
-                
+
                 <div class="projBox">
-                    
+                    <ul>
+                        <li class="contactItem">Email</li>
+                        <a href="https://github.com/mcorn663"><li class="contactItem">GitHub</li></a>
+                       <a href="https://www.linkedin.com/in/mcornell-663/"><li class="contactItem">LinkedIn</li></a> 
+                    </ul>
                 </div>
 
-            </section>
-
-        </main>
-        
-        <link rel="stylesheet" type="text/css" href="/" media="print" />
-        <script src="mmc.js" async defer></script>
+              </section>
+           
+             </main>
+        <footer>Cornell_Designs @2024</footer>
     </body>
+    
+    
+    <script src="mmc.js" async defer></script>
 </html>

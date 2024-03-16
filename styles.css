@@ -1,8 +1,8 @@
 :root {
     --main-bg_color: #222823;
     --main-font-color: #f4f7f5;
-    --titleFont: ;
-    --bodyFont: ;
+    --accentColor: #f72585;
+   
 }
 
 
@@ -12,13 +12,27 @@
         box-sizing: border-box;
         background-color: var(--main-bg_color);
         color: var(--main-font-color);
+        font-family: "Proza Libre", sans-serif;
+        
+       
+}
+
+/* links */
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    color: var(--accentColor);
+    text-decoration: bold;
+   
 }
 
 /* title styles */
 #name {
     padding: 5px;
     margin: 5px;
-    font-size: 80px;
+    font-size: 100px;
+    font-family: "Cormorant", serif;
 }
 
 
@@ -26,32 +40,50 @@
 .navItem {
     padding-left: 20px;
     font-size: 20px;
-    
+   
+}
+
+/* body flex */
+
+#bodyContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+#header {
+    max-width: 25%;
+    border: 10px solid red;
+}
+#main {
+    min-width: 1000px;
+    max-width: 75%;
+    border: 10px solid pink;
+    align-items: left;
 }
 
 /* subtitle styles */
-.mainBox {
+.box, .projbox {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: flex-end;
+    justify-content: left;
 }
-.titleBox {
-    width: 200px;
-    height: 100px;
-    margin: auto;
+.titleBox, .cards {
+    align-items: left;
+    margin: 0;
     padding: 10px; 
+    text-align: left;
 }
 
-/* Main Section Styles */
-.projBox {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-end;
+
+section {
+    border-bottom: 5px solid;
 }
 
-.cards {
- width: 200px;
- height: 100px;
- margin: auto;
- padding: 10px; 
+
+/* contact */
+.contactItem {
+    margin: 0;
+    padding-left: 10px; 
+    list-style: none;
 }
