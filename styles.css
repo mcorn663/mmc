@@ -1,7 +1,7 @@
 :root {
     --main-bg_color: #222823;
     --main-font-color: #f4f7f5;
-    --accentColor: #f72585;
+    --accentColor: #9d6381;
    
 }
 
@@ -18,14 +18,15 @@
 }
 
 /* links */
+a:hover {
+    background-color: var(--accentColor);
+    text-decoration: bold;
+}
+
 a:link {
     text-decoration: none;
 }
-a:hover {
-    color: var(--accentColor);
-    text-decoration: bold;
-   
-}
+
 
 /* title styles */
 #name {
@@ -80,6 +81,11 @@ section {
     border-bottom: 5px solid;
 }
 
+.footer {
+    padding: 40px;
+    background-color: var(--accentColor);
+    color: var(--main-bg_color);
+}
 
 /* contact */
 .contactItem {
