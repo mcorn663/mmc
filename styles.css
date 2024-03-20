@@ -20,6 +20,7 @@
 /* links */
 a:hover {
     background-color: var(--accentColor);
+    color: var(--accentColor);
     text-decoration: bold;
 }
 
@@ -27,6 +28,9 @@ a:link {
     text-decoration: none;
 }
 
+.contactItem:hover {
+    background-color: var(--accentColor);
+}
 
 /* title styles */
 #name {
@@ -54,12 +58,10 @@ a:link {
 
 #header {
     max-width: 25%;
-    border: 10px solid red;
 }
 #main {
     min-width: 1000px;
     max-width: 75%;
-    border: 10px solid pink;
     align-items: left;
 }
 
