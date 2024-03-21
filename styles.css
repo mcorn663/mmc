@@ -2,6 +2,7 @@
     --main-bg_color: #222823;
     --main-font-color: #f4f7f5;
     --accentColor: #9d6381;
+    --black: #000000;
    
 }
 
@@ -28,9 +29,7 @@ a:link {
     text-decoration: none;
 }
 
-.contactItem:hover {
-    background-color: var(--accentColor);
-}
+
 
 /* title styles */
 #name {
@@ -91,7 +90,15 @@ section {
 
 /* contact */
 .contactItem {
-    margin: 0;
+    margin: 5px;
     padding-left: 10px; 
     list-style: none;
+
+}
+
+.liItem:hover {
+    background-color: var(--accentColor);
+    color: var(--black);
+    padding: 2px;
+    border-radius: 5%;
 }
