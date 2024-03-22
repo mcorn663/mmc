@@ -93,6 +93,7 @@ section {
     margin: 5px;
     padding-left: 10px; 
     list-style: none;
+<<<<<<< Updated upstream
 
 }
 
@@ -101,4 +102,13 @@ section {
     color: var(--black);
     padding: 2px;
     border-radius: 5%;
+=======
+}
+
+/* Img formatting on sub pages */
+
+.projImg {
+    max-width: 400px;
+    max-height: 375px;
+>>>>>>> Stashed changes
 }
