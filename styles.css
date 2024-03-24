@@ -1,7 +1,7 @@
 :root {
     --main-bg_color: #222823;
     --main-font-color: #f4f7f5;
-    --accentColor: #9d6381;
+    --accentColor: #fdd85d;
     --black: #000000;
    
 }
@@ -20,9 +20,7 @@
 
 /* links */
 a:hover {
-    background-color: var(--accentColor);
     color: var(--accentColor);
-    text-decoration: bold;
 }
 
 a:link {
@@ -77,6 +75,15 @@ a:link {
     text-align: left;
 }
 
+.projImg:hover {
+    margin: 5px;
+    border: 10px solid var(--accentColor);
+}
+
+.projImg {
+    min-width: 800px;
+    max-width: 1000px;
+}
 
 section {
     border-bottom: 5px solid;
@@ -88,27 +95,64 @@ section {
     color: var(--main-bg_color);
 }
 
+/* about */
+.txt {
+    margin: 5px;
+    padding: 10px;
+    
+}
 /* contact */
 .contactItem {
     margin: 5px;
     padding-left: 10px; 
     list-style: none;
-<<<<<<< Updated upstream
 
+}
+.liItem {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .liItem:hover {
     background-color: var(--accentColor);
     color: var(--black);
-    padding: 2px;
-    border-radius: 5%;
-=======
+    padding: 3px;
+    margin: 10px;
+    border-radius: 5px;
+   
 }
 
-/* Img formatting on sub pages */
-
-.projImg {
-    max-width: 400px;
-    max-height: 375px;
->>>>>>> Stashed changes
+.projTitle {
+    border-radius: 0%;
 }
+
+/* projects */
+
+.obsLi {
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.projPara {
+    padding: 5px;
+    margin: 5px;
+}
+
+.itLi {
+    padding: 10px;
+    margin: 5px; 
+    margin-left: 50px;
+}
+.picBox {
+    display: flex;
+    flex-flow: center wrap;
+    justify-content: center;
+}
+.itPic {
+    min-width: 400px;
+    max-width: 600px;
+    padding: 10px;
+
+}
+
